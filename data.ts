@@ -1,5 +1,6 @@
 export type MindMapNode = {
   title: string;
+  completed?: boolean;
   children?: MindMapNode[];
 };
 
